@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-menu.css">   
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="assets/Logo.jpg" class="logo">
+            <ol>
+                <a href="index.html"><li class="lists">Home</li></a> 
+                <a href="menu.html"><li class="lists">Menu</li></a>
+                <a href="about.html"><li class="lists">About</li></a>
+                <a href="contact.html"><li class="lists">Contact</li></a>
+                <li class="lists">
+                    <div class="totalQuantity">0</div>
+                    <button id="myBtn">
+                        <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/odavpkmb.json"
+                            trigger="hover"
+                            colors="primary:#ffffff,secondary:#A98F76"
+                            style="width:40px;height:40px;top: -4px;">
+                        </lord-icon>
+                    </button>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+   
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <!-- Add your modal content here -->
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h3 class="cart-heading">Your Order</h3>
+            <hr>
+            <div class="cart-items"></div>
+            <div class="buttons">
+                <div class="checkout">
+                    <a href="checkout.html">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="myCalorieModal" class="calorie-modal">
+        <div class="calorie-modal-content">
+            <h2 class="calorie-heading">Total Daily Energy Expenditure</h2>
+            <div class="group">
+                <label for="gender">Gender</label>
+                <div class="gender">
+                    <input type="radio" name="gender" id="male" value="1">Male
+                    <input type="radio" name="gender" id="female" value="2">Female
+                </div>
+            </div>
+            <div class="group">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="1" max="70" placeholder="19" value="">
+            </div>
+            <div class="group">
+                <label for="height">Height</label>
+                <input type="number" name="height" id="height" placeholder="180 (cm)">
+            </div>
+            <div class="group">
+                <label for="weight">Weight</label>
+                <input type="number" name="weight" id="weight" placeholder="75 (kg)">
+            </div>
+            <div class="group">
+                <label for="activity">Activity</label>
+                <select id="activity" name="activity">
+                    <option value="1">Sedentary (little or no exercise)</option>
+                    <option value="2">Lightly active (light exercise/sports 1-3 days/week)</option>
+                    <option value="3">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                    <option value="4">Very active (hard exercise/sports 6-7 days a week)</option>
+                    <option value="5">If you are extra active (very hard exercise/sports & a physical job)</option>
+                </select>
+            </div>
+            <button id="submit">Submit</button>
+        </div>    
+    </div>
+    
+    <!--TO DO HERE-->
+    <div class="menu-container">
+        <h1 class="heading1">Menu</h1>
+        <hr class="linespace">
+    </div>
+    <h2 class="calorieText">Calorie Needed: 0</h2>
+    <div class="container" id="contain">
+        <!-- Dynamic product list will be inserted here -->
+        <div class="listProduct"></div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="side1">
+            <h4>About us</h4>
+            We realize that in a developed countries many people struggle 
+            <br>to find the time and energy to cook healthy meals every day.
+            <br> This can lead to poor nutrition and health issues. When it comes 
+            <br>with healthy food most of us thinks that it is not delicious,
+            <br> taste bad, and not flavourbut what if you could have fresh,
+            <br> tasty, and nutritious meals delivered to your door every day? 
+            <br>That's where we come in.
+        </div>
+        <div class="side2">
+            <h4 style="position: relative; left: 40px;">Our Social Media</h4>
+            <img src="assets/facebook logo.png" class="socmed">
+            <span class="facebook">Facebook</span>
+            <img src="assets/instagram logo.png"class="socmed" style="position: relative; bottom: 20px;">
+            <span class="instagram">Instagram</span>
+            <img src="assets/twitter logo.png" class="socmed" style="position: relative; bottom: 40px;">
+            <span class="twitter">Twitter</span>
+            
+        </div>
+        <div class="side3">
+            <h4>Contact us</h4>    
+            <img src="assets/location.png" class="contact">
+            <span class="location">Keelung, Taiwan</span>
+            <a href="mailto:fattyuncle@gmail.com" style="color: white; text-decoration: none;">
+                <img src="assets/email.png"class="contact" style="position: relative; bottom: 20px;">
+             <span class="email">fattyuncle@gmail.com</span></a>
+             <a href="Healthy Restaurant(FattyUncle)-01157061+01157160.pptx" download="Healthy Restaurant(FattyUncle)-01157061+01157160" style="color: white; text-decoration: none;">
+                <img src="assets/powerpoint.png" alt="a picture of powerpoint" class="contact" style="position: relative; bottom: 20px;">
+            <span class="email">Our Presentation</span></a>
+        </div>
+         
+    </div>
+    <script src="script-menu.js" defer></script>
+</body>

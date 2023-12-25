@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "name": "Katsu Delight",
+        "price": 550,
+        "image": "assets/menu-picture1.jpg",
+        "description1": "A wholesome blend of succulent",
+        "description2": "chicken katsu served with nutrient",
+        "description3": "ingredients for a perfect cuisine",
+        "calorie": "450kkal"
+    },
+    {
+        "id": 2,
+        "name": "SalmoVital Bliss",
+        "price": 700,
+        "image": "assets/menu-picture2.jpg",
+        "description1": "Healthy salmon infused with crucial",
+        "description2": "nutrients creating a deliciously",
+        "description3": "nutritious culinary masterpiece.",
+        "calorie": "350kkal"
+    },
+    {
+        "id": 3,
+        "name": "Spire Linguine",
+        "price": 300,
+        "image": "assets/menu-picture3.jpg",
+        "description1": "A delightful blend of whole-grain",
+        "description2": "and flavorful white sauces for",
+        "description3": "a marvelous dining experience ",
+        "calorie": "300kkal"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Meaty Burst",
+        "price": 450,
+        "image": "assets/menu-picture4.jpg",
+        "description1": "Pasta with Meat Sauce and Cherry Tomatoes",
+        "description2": "topped with a dark brown meat sauce",
+        "description3": "",
+        "calorie": "480kkal"
+    },
+    {
+        "id": 5,
+        "name": "Wagyu Kalio",
+        "price": 900,
+        "image": "assets/menu-picture5.jpg",
+        "description1": "Wagyu Beef Kalio with Brown Rice",
+        "description2": "served with red chili Potatoes ",
+        "description3": "and garnished with kalio Sauce",
+        "calorie": "452kkal"
+    },
+    {
+        "id": 6,
+        "name": "Velvet Chicken",
+        "price": 535,
+        "image": "assets/menu-picture6.jpg",
+        "description1": "Creamy Kemangi Chicken with Dabe-Dabe",
+        "description2": "Dressing and Mashed Potato, served on a black plate.",
+        "description3": "",
+        "calorie": "400kkal"
+    },
+    {
+        "id": 7,
+        "name": "Hamburg Sizzle",
+        "price": 370,
+        "image": "assets/menu-picture7.jpg",
+        "description1": "A Japanese Hamburg Steak with",
+        "description2": "Creamy Garlic Sauce and Japanese Rice",
+        "description3": "",
+        "calorie": "450kkal"
+    },
+    {
+        "id": 8,
+        "name": "Golden Zest",
+        "price": 300,
+        "image": "assets/menu-picture8.jpg",
+        "description1": "Chicken Curry With Shallot Brown Rice, ",
+        "description2": "Telor Balado garnished with parsley",
+        "description3": "",
+        "calorie": "350kkal"
+    },
+    {
+        "id": 9,
+        "name": "Gyu Donburi",
+        "price": 450,
+        "image": "assets/menu-picture9.jpg",
+        "description1": "Japanese Corn Fried Rice with",
+        "description2": "Beef Bulgogi, garnished with",
+        "description3": "onions and sesame seeds",
+        "calorie": "300kkal"
+    },
+    {
+        "id": 10,
+        "name": "Bliss Balls",
+        "price": 250,
+        "image": "assets/menu-picture10.jpg",
+        "description1": "Mac and Cheese with Meatballs with Golden Crust",
+        "description2": "in a Bolognese Sauce",
+        "description3": "",
+        "calorie": "485kkal"
+    },
+    {
+        "id": 11,
+        "name": "Mini Martabak",
+        "price": 150,
+        "image": "assets/menu-picture11.jpg",
+        "description1": "Martabak Mini with a chocolate crust and cheese",
+        "description2": "served with condensed milk ",
+        "description3": "",
+        "calorie": "447kkal"
+    },
+    {
+        "id": 12,
+        "name": "Golden Tenders",
+        "price": 170,
+        "image": "assets/menu-picture12.jpg",
+        "description1": "Chicken Nuggets with Baked Sweet Potato Fries,",
+        "description2": "Fresh Carrot, and Corn Soup.",
+        "description3": "",
+        "calorie": "489kkal"
+    },
+    {
+        "id": 13,
+        "name": "Thai Nugs",
+        "price": 130,
+        "image": "assets/menu-picture13.jpg",
+        "description1": "Chicken Nuggets with Thai Sauce ",
+        "description2": "drizzled with sweet chili sauce. ",
+        "description3": "",
+        "calorie": "443kkal"
+    },
+    {
+        "id": 14,
+        "name": "Meltz Pizza",
+        "price": 200,
+        "image": "assets/menu-picture14.jpg",
+        "description1": "Cheese Pizza Overload with BBQ Chicken",
+        "description2": "garnished with green herbs and red chili flakes.",
+        "description3": "",
+        "calorie": "400kkal"
+    },
+    {
+        "id": 15,
+        "name": "Chicken Mojo",
+        "price": 320,
+        "image": "assets/menu-picture15.jpg",
+        "description1": "Barbeque Chicken with Mojo Potatoes",
+        "description2": "garnished with a spring of parsley.",
+        "description3": "",
+        "calorie": "489kkal"
+    },
+    {
+        "id": 16,
+        "name": "Strawberry Fizz",
+        "price": 90,
+        "image": "assets/menu-picture16.jpg",
+        "description1": "A blend of sweet strawberries and sparkling soda",
+        "description2": "that gives a refreshing taste",
+        "description3": "",
+        "calorie": "235kkal"
+    },
+    {
+        "id": 17,
+        "name": "Fiber Cola",
+        "price": 80,
+        "image": "assets/menu-picture17.jpg",
+        "description1": "A unique twist on the classic Coca-Cola",
+        "description2": "with an added dietary fiber",
+        "description3": "",
+        "calorie": "120kkal"
+    },
+    {
+        "id": 18,
+        "name": "Natural Water",
+        "price": 50,
+        "image": "assets/menu-picture18.jpg",
+        "description1": "A natural elixir enriched with essential minerals",
+        "description2": "sourced from underground springs",
+        "description3": "",
+        "calorie": "0kkal"
+    },
+    {
+        "id": 19,
+        "name": "Boba Milk Tea",
+        "price": 80,
+        "image": "assets/menu-picture19.jpg",
+        "description1": "A healthier twist on the traditional boba milk tea",
+        "description2": "with unsweetened almond milk ",
+        "description3": "",
+        "calorie": "275kkal"
+    },
+    {
+        "id": 20,
+        "name": "Almond Milk",
+        "price": 110,
+        "image": "assets/menu-picture20.jpg",
+        "description1": "A delightful plant-based milk substitute,",
+        "description2": "almond milk is made from finely",
+        "description3": "ground almonds and water",
+        "calorie": "90kkal"
+    },
+    {
+        "id": 21,
+        "name": "Natural Coconut",
+        "price": 150,
+        "image": "assets/menu-picture21.jpg",
+        "description1": "A refreshing, clear fluid found inside",
+        "description2": "young coconut, specially picked by experts ",
+        "description3": "",
+        "calorie": "100kkal"
+    }
+]

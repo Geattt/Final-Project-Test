@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style-checkout.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="checkoutLayout">
+        <div class="returnCart">
+            <a href="menu.html">Back to Menu</a>
+            <h1 style="color: #fff;">List Product in Cart</h1>
+            <div class="list">
+                <div class="item">
+                    <!--Add data dynamically-->
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>Checkout</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Fatty Uncle" required>
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="+886 000-123-456" required>
+                </div>
+    
+                <div class="group">
+                    <label for="date">Date</label>
+                    <input type="datetime-local" name="date" id="date" required>
+                </div>
+    
+                <div class="group">
+                    <label for="people">Number of people</label>
+                    <input type="number" name="people" id="people" placeholder="3" min="1" required>
+                </div>
+
+                <div class="group">
+                    <label for="voucher">Voucher</label>
+                    <input type="text" name="voucher" id="voucher">
+                    <button class="voucher-button">CHECK CODE</button>
+                </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Total Quantity</div>
+                    <div class="totalQuantity"></div>
+                </div>
+                <div class="row">
+                    <div>Total Discount</div>
+                    <div class="totalDiscount">0</div>
+                </div>
+                <div class="row">
+                    <div>Total Price</div>
+                    <div class="totalPrice"></div>
+                </div>
+                <div class="row">
+                    <div>Total Calorie</div>
+                    <div class="totalCalorie"></div>
+                </div>
+                <div class="row">
+                    <div>Calorie Needed / day</div>
+                    <div class="totalCalorieNeeded"></div>
+                </div>
+            </div>
+            <button class="buttonCheckout">CHECKOUT</button>
+            </div>
+    </div>
+</div>
+<script src="script-checkout.js"></script>
+</body>
+</html>

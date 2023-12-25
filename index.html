@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="assets/Logo.jpg" alt="a picture of logo" class="logo">
+            <ol>
+                <li class="lists"><a href="main.html">Home</a></li> 
+                <li class="lists"><a href="menu.html">Menu</a></li>
+                <li class="lists"><a href="about.html">About</a></li>
+                <li class="lists"><a href="contact.html">Contact</a></li>
+                <li class="lists">
+                    <div class="totalQuantity">0</div>
+                    <button id="myBtn">
+                    <lord-icon
+                        src="https://cdn.lordicon.com/odavpkmb.json"
+                        trigger="hover"
+                        colors="primary:#ffffff,secondary:#A98F76"
+                        style="width:40px;height:40px;top: -4px;">
+                    </lord-icon>
+                    </button>
+                </li>
+            </ol>
+        </div>
+    </nav>
+    
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <!-- Add your modal content here -->
+            <span class="close" id="closeModalBtn">&times;</span>
+            <h3 class="cart-heading">Your Order</h3>
+            <hr>
+            <div class="cart-items"></div>
+            <div class="buttons">
+                <div class="checkout">
+                    <a href="checkout.html">CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-section1" id="h-sec1">
+        <h1 class="h1-leftside"><span style="color:#01ACA2;">NOURISH</span>  YOUR  BODY</h1>
+        <h1 class="h1-rightside">WITH <span style="color:#01ACA2;"> HEALTHY</span>  FOOD</h1>
+        <img src="assets/home-picture1.png" alt="A picture of tonkatsu" class="h-pict1">
+    </div>
+
+    <div class="home-section2 reveal" id="h-sec2">
+        <img src="assets/home-picture2.png" alt="A picture of sashimi" class="h-pict2" id="h-pic2">
+        <h1 class="h2-leftside" id="h-t2">
+            <span style="color:#F5D400">CULINARY</span> EXCELLENCE <br>
+                    BEGINS WITH THE FINEST <span style="color:#F5D400">INGREDIENTS</span>
+        </h1>
+        <h4 class="h2-paragraph" id="h-p2"> The foundation of any exceptional dish lies in the quality of the components used to create it. 
+            <br>From the crisp freshness of locally sourced vegetables to the succulence of premium cuts of meat, 
+            <br>each element plays a crucial role in the symphony of flavors that emerges from the kitchen.
+        </h4>
+        <a href="menu.html"><button id="order">ORDER NOW</button></a>
+    </div>
+
+    <div class="home-section3 reveal" id="h-sec3">
+        <h1 class="h3-center" id="cont"> OUR <span style="color: #FF6B6B;">  BEST </span> CHOICES </h1>
+        <div class="container" id="cont">
+            <a href="menu.html"><img src="assets/menu-picture1.jpg" alt="A picture of tonkatsu with sushi" id="pic1"></a>
+            <a href="menu.html"><img src="assets/menu-picture2.jpg" alt="A picture of salmon" id="pic2"></a>
+            <a href="menu.html"><img src="assets/menu-picture3.jpg" alt="A picture of spaghetti" id="pic3"></a>
+        </div>
+        <div class="container" id="cont">
+            <a href="menu.html"><img src="assets/menu-picture4.jpg" alt="A picture of corndog" id="pic4"></a>
+            <a href="menu.html"><img src="assets/menu-picture5.jpg" alt="A picture of red fried rice" id="pic5"></a>
+            <a href="menu.html"><img src="assets/menu-picture6.jpg" alt="A picture of meat with egg" id="pic6"></a>
+        </div>
+    </div>
+    <br>
+
+    <div class="home-section4 reveal" id="h-sec4">
+        <img src="assets/waiter-picture.png" alt="a picture of waiter" id="h-4">
+        <h1 id="h-4"><span style="color: #BA75FF;">EXQUISITE </span>SERVICE
+            <br>CRAFTING <span style="color: #BA75FF;">UNFORGETTABLE</span> MOMENTS FOR YOU
+        </h1>
+    </div>
+    
+    <div class="footer">
+        <div class="side1">
+            <h4>About us</h4>
+            We realize that in a developed countries many people struggle 
+            <br>to find the time and energy to cook healthy meals every day.
+            <br> This can lead to poor nutrition and health issues. When it comes 
+            <br>with healthy food most of us thinks that it is not delicious,
+            <br> taste bad, and not flavourbut what if you could have fresh,
+            <br> tasty, and nutritious meals delivered to your door every day? 
+            <br>That's where we come in. 
+        </div>
+        <div class="side2">
+            <h4 style="position: relative; left: 40px;">Our Social Media</h4>
+            <img src="assets/facebook logo.png" alt="a picture of facebook" class="socmed">
+            <span class="facebook">Facebook</span>
+            <img src="assets/instagram logo.png" alt="a picture of instagram" class="socmed" style="position: relative; bottom: 20px;">
+            <span class="instagram">Instagram</span>
+            <img src="assets/twitter logo.png" alt="a picture of twitter" class="socmed" style="position: relative; bottom: 40px;">
+            <span class="twitter">Twitter</span>
+            
+        </div>
+        <div class="side3">
+            <h4>Contact us</h4>    
+            <img src="assets/location.png" alt="a picture of location" class="contact">
+            <span class="location">Keelung, Taiwan</span>
+            <a href="mailto:fattyuncle@gmail.com" style="color: white; text-decoration: none;">
+                <img src="assets/email.png" alt="a picture of email" class="contact" style="position: relative; bottom: 20px;">
+            <span class="email">fattyuncle@gmail.com</span></a>
+            <a href="Healthy Restaurant(FattyUncle)-01157061+01157160.pptx" download="Healthy Restaurant(FattyUncle)-01157061+01157160" style="color: white; text-decoration: none;">
+                <img src="assets/powerpoint.png" alt="a picture of powerpoint" class="contact" style="position: relative; bottom: 20px;">
+            <span class="email">Our Presentation</span></a>
+        </div>
+         
+    </div>
+</body>
+</html>

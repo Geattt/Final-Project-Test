@@ -1,0 +1,81 @@
+<div>
+            <img src="assets/menu-picture1.jpg">
+            <span class="text-container">
+                <span style="position: relative;right: 4px;">NutriKatsu Delight</span>     
+            </span>
+            <span class="description">
+                <span>
+                    A wholesome blend of succulent<br>
+                    chicken katsu served with nutrient<br>
+                    ingredients for a perfect cuisine<br>
+                </span>
+            </span>
+            <button id="menu1">Add to cart</button>  
+            <span class="price" id="menu-price1">$450</span>
+            <div class="popup">
+                <span class="calorie" id="m1">
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/kndkiwmf.json"
+                        trigger="hover"
+                        colors="primary:#ffffff,secondary:#e88c30"
+                        style="width:50px;height:50px">
+                    </lord-icon>
+                </span> 
+                <span class="popuptext" id="myPopup1">2000 cal</span>
+            </div>
+        </div>
+        <div>
+            <img src="assets/menu-picture2.jpg">
+            <span class="text-container">
+                <span style="position: relative;right: 20px;">SalmoVital Bliss</span>   
+            </span>
+            <span class="description">
+                <span>
+                    Healthy salmon infused with crucial <br>
+                    nutrients creating a deliciously <br>
+                    nutritious culinary masterpiece. <br>
+                </span>
+            </span>
+            <button id="menu2">Add to cart</button>  
+            <span class="price" id="menu-price2">$650</span> 
+            <div class="popup">
+                <span class="calorie" id="m2">
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/kndkiwmf.json"
+                        trigger="hover"
+                        colors="primary:#ffffff,secondary:#e88c30"
+                        style="width:50px;height:50px">
+                    </lord-icon>
+                </span> 
+                <span class="popuptext" id="myPopup2">2000 cal</span>
+            </div>
+        </div>
+        <div>
+            <img src="assets/menu-picture3.jpg">
+            <span class="text-container">
+                <span style="position: relative;right: 27px;">Spire Linguine</span>   
+            </span>
+            <span class="description">
+                <span>
+                    A delightful blend of whole-grain <br>
+                    and flavorful white sauces for<br>
+                    a marvelous dining experience <br>
+                </span>
+            </span>
+            <button id="menu3">Add to cart</button>
+            <span class="price" id="menu-price3">$300</span>   
+            <div class="popup">
+                <span class="calorie" id="m3">
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/kndkiwmf.json"
+                        trigger="hover"
+                        colors="primary:#ffffff,secondary:#e88c30"
+                        style="width:50px;height:50px">
+                    </lord-icon>
+                </span> 
+                <span class="popuptext" id="myPopup3">2000 cal</span>
+            </div>
+        </div>
